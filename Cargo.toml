@@ -1,0 +1,10 @@
+[package]
+name = "review-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+oinq = { git = "https://github.com/petabi/oinq.git", version = "0.10" }
+quinn = "0.10"
+serde = "1"
